@@ -1,0 +1,41 @@
+
+body {  
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Hepta Slab', serif;
+}
+
+.home-link {
+  text-align: center;
+  width: 100%;
+}
+
+  
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a:first-child {
+    float: left;
+    font-size: 1.2em;
+    color: black;
+    padding: 40px 16px 24px;
+  }
+  .topnav a {
+    float: right;
+    color: grey;
+    text-align: center;
+    padding: 40px 10px 24px;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: black;
+  }
